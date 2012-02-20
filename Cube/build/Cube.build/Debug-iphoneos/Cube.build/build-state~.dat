@@ -1,0 +1,549 @@
+TCube
+v4
+r1
+cCheck dependencies
+cCpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Cube.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Info.plist Cube/Cube-Info.plist
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube normal armv7
+cGenerateDSYMFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube
+cCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings Cube/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings Cube/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png Cube/icons/GLSL_Icon114x114px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png Cube/icons/GLSL_Icon512x512px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png Cube/icons/GLSL_Icon57x57px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png Cube/icons/GLSL_Icon72x72px.png
+cCpResource Cube/shaders/SimpleFragment.glsl build/Debug-iphoneos/Cube.app/SimpleFragment.glsl
+cCpResource Cube/shaders/SimpleVertex.glsl build/Debug-iphoneos/Cube.app/SimpleVertex.glsl
+cProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision
+cTouch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+cProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent
+cCodeSign /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F6E00000000000017190
+t1316157152
+s94608
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F8910000000000173260
+t1316157585
+s1520224
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision
+c000000004F18471B0000000000001C52
+t1326991131
+s7250
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+c000000004F3E9B710000000000000A16
+t1329503089
+s2582
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch
+c000000004F410BFE0000000000000137
+t1329662974
+s311
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+c000000004F3FCA470000000000002791
+t1329580615
+s10129
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+c000000004DDBA22C00000000000040B9
+t1306239532
+s16569
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+c000000004DDBA7080000000000007009
+t1306240776
+s28681
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+c000000004DDBA76E0000000000004710
+t1306240878
+s18192
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+c000000004DDBA6E80000000000000A24
+t1306240744
+s2596
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/en.lproj/InfoPlist.strings
+c000000004F410BFE000000000000002D
+t1329662974
+s45
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon114x114px.png
+c000000004F40E4320000000000003CC7
+t1329652786
+s15559
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon512x512px.png
+c000000004F40E413000000000001E288
+t1329652755
+s123528
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon57x57px.png
+c000000004F40E451000000000000161D
+t1329652817
+s5661
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon72x72px.png
+c000000004F40E3EB0000000000001F5F
+t1329652715
+s8031
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+c000000004F410BFE0000000000000158
+t1329662974
+s344
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleFragment.glsl
+c000000004F3F9C390000000000000060
+t1329568825
+s96
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleVertex.glsl
+c000000004F3FBEF000000000000000F6
+t1329577712
+s246
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/Cube.LinkFileList
+c000000004F410DA30000000000000391
+t1329663395
+s913
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Info.plist
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/PkgInfo
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/ResourceRules.plist
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/SimpleFragment.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/SimpleVertex.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth
+t2
+s0
+
+NCube/Cube-Info.plist
+c000000004F410CCD000000000000052F
+t1329663181
+s1327
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese1b7d92345f1b441^e7a7f82345f1b441^---0#1#0#--18"Check dependencies36"20C7ADFD-D188-4087-8E2E-37E62AE2EBDC-
+
+CCodeSign /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+s351356199.450836
+e351356199.717199
+r1
+xCodeSign
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"CodeSign build/Debug-iphoneos/Cube.app8481732745f1b441^dc9bb72745f1b441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/0000000000000000^814"CodeSign build/Debug-iphoneos/Cube.app    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv CODESIGN_ALLOCATE /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign "iPhone Developer: Lukas Andrlik (SVQ4T72QGU)" --resource-rules=/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/ResourceRules.plist --entitlements /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app36"6D91E537-BA57-464C-AECB-DE99A4BC9439-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.501044
+e351356197.731951
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m075f802545f1b441^0f62bb2545f1b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m0000000000000000^2630"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o Cube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/AppDelegate.o36"A0B9AD00-2FC2-452C-92DC-9C4B4C71B2B2-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.605434
+e351356197.773346
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.md1769c2545f1b441^fdfac52545f1b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m0000000000000000^2664"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o Cube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Foundation.o36"53EC5142-7D2D-449C-A93E-891577FC0B11-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.500238
+e351356197.844708
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m5c3c802545f1b441^6f67db2545f1b441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m0000000000000000^2654"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o Cube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3GLMatrix.o36"1479E407-5ACD-46A0-A17D-A108F8461028-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s351356196.468419
+e351356197.376850
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c2a19782445f1b441^f679602545f1b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c0000000000000000^2466"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o Cube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Kazmath.o36"B0C35C6B-97E5-431D-9B83-687359268A00-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.733321
+e351356197.788376
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3]
+o unsigned int RandomUInt() {
+o              ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3]
+o double RandomDouble() {
+o        ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3]
+o float RandomFloat() {
+o       ^
+o3 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m29e7bb2545f1b441^e9d4c92545f1b441^-645"/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3] unsigned int RandomUInt() {              ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3] double RandomDouble() {        ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3] float RandomFloat() {       ^3 warnings generated.3(21%IDEActivityLogMessage2@47"No previous prototype for function 'RandomUInt'-351356197#0#170#-1#-23%DVTTextDocumentLocation3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^61#13#61#13#18446744073709551615#0#14"Semantic Issue--2@49"No previous prototype for function 'RandomDouble'-351356197#215#171#-1#-3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^69#7#69#7#18446744073709551615#0#14"Semantic Issue--2@48"No previous prototype for function 'RandomFloat'-351356197#421#170#-1#-3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^77#6#77#6#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^2634"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o Cube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/CC3Math.o36"45F38A5F-DA48-4757-BAFC-A4B969895091-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.500294
+e351356197.759918
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.ma038802545f1b441^d999c22545f1b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m0000000000000000^2625"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o Cube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/OpenGLView.o36"D3EC21B0-6070-4AFA-8CE3-E1AF24E56BB1-
+
+CCompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356197.500007
+e351356197.604104
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.mdc2e802545f1b441^16a79a2545f1b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m0000000000000000^2595"CompileC build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o Cube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/main.o36"EF8039D3-321A-4FE1-B971-F8F3E743C073-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png Cube/icons/GLSL_Icon114x114px.png
+s351356198.797987
+e351356198.878890
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png
+xCube/icons/GLSL_Icon114x114px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png Cube/icons/GLSL_Icon114x114px.png315dcc2645f1b441^e604e12645f1b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon114x114px.png0000000000000000^716"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png Cube/icons/GLSL_Icon114x114px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon114x114px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon114x114px.png36"E2820530-ED96-4705-B0E5-D0A0B3F060D8-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png Cube/icons/GLSL_Icon512x512px.png
+s351356198.797989
+e351356199.391658
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png
+xCube/icons/GLSL_Icon512x512px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png Cube/icons/GLSL_Icon512x512px.png4b5bcc2645f1b441^7c48642745f1b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon512x512px.png0000000000000000^716"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png Cube/icons/GLSL_Icon512x512px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon512x512px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon512x512px.png36"93A452CD-C9F9-48F5-92B3-5208B9C2779B-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png Cube/icons/GLSL_Icon57x57px.png
+s351356198.801933
+e351356198.846919
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png
+xCube/icons/GLSL_Icon57x57px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png Cube/icons/GLSL_Icon57x57px.png8d5ecd2645f1b441^4ed2d82645f1b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon57x57px.png0000000000000000^708"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png Cube/icons/GLSL_Icon57x57px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon57x57px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon57x57px.png36"4E1C6F4A-C786-4EE4-B177-EC3D108B7905-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png Cube/icons/GLSL_Icon72x72px.png
+s351356198.806462
+e351356198.864855
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png
+xCube/icons/GLSL_Icon72x72px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png Cube/icons/GLSL_Icon72x72px.png8691ce2645f1b441^d062dd2645f1b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon72x72px.png0000000000000000^708"CopyPNGFile build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png Cube/icons/GLSL_Icon72x72px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon72x72px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/GLSL_Icon72x72px.png36"37CFA421-6A2C-470C-809B-5C4CEFDF8043-
+
+CCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings Cube/en.lproj/InfoPlist.strings
+s351356198.797963
+e351356198.805199
+r1
+xCopyStringsFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings
+xCube/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Cube/en.lproj/InfoPlist.stringsa25ecc2645f1b441^282bce2645f1b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/en.lproj/InfoPlist.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/Cube.app/en.lproj/InfoPlist.strings Cube/en.lproj/InfoPlist.strings    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/en.lproj -- Cube/en.lproj/InfoPlist.strings36"F2DBAD85-930B-4ECB-9E9D-C3FC47454C2D-
+
+CCpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Cube.app/ResourceRules.plist
+s351356195.979132
+e351356195.982012
+r1
+xCpResource
+x/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Cube.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/Cube.app/ResourceRules.plist7fc1fa2345f1b441^0ef9fb2345f1b441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/ResourceRules.plist00f80837dcffdf42^700"CpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Cube.app/ResourceRules.plist    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app36"DAA7B084-46AF-4C8E-8D1C-1E95371B115C-
+
+CCpResource Cube/shaders/SimpleFragment.glsl build/Debug-iphoneos/Cube.app/SimpleFragment.glsl
+s351356198.848322
+e351356198.851425
+r1
+xCpResource
+xCube/shaders/SimpleFragment.glsl
+xbuild/Debug-iphoneos/Cube.app/SimpleFragment.glsl
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/Cube.app/SimpleFragment.glsld849d92645f1b441^bb0dda2645f1b441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/SimpleFragment.glsl00f80837dcffdf42^632"CpResource Cube/shaders/SimpleFragment.glsl build/Debug-iphoneos/Cube.app/SimpleFragment.glsl    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleFragment.glsl /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app36"E17218B9-04D3-44DA-B310-F7B92B0472E8-
+
+CCpResource Cube/shaders/SimpleVertex.glsl build/Debug-iphoneos/Cube.app/SimpleVertex.glsl
+s351356198.852635
+e351356198.857105
+r1
+xCpResource
+xCube/shaders/SimpleVertex.glsl
+xbuild/Debug-iphoneos/Cube.app/SimpleVertex.glsl
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphoneos/Cube.app/SimpleVertex.glslbb5eda2645f1b441^ac70db2645f1b441^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/SimpleVertex.glsl00f80837dcffdf42^626"CpResource Cube/shaders/SimpleVertex.glsl build/Debug-iphoneos/Cube.app/SimpleVertex.glsl    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleVertex.glsl /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app36"69AD2F8A-E7B0-4C5B-8B7D-82C7662796B2-
+
+CGenerateDSYMFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube
+s351356198.765702
+e351356198.794970
+r1
+xGenerateDSYMFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generating /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYMa917c42645f1b441^be83cb2645f1b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM00f80837dcffdf42^559"GenerateDSYMFile build/Debug-iphoneos/Cube.app.dSYM build/Debug-iphoneos/Cube.app/Cube    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/usr/bin/dsymutil /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app.dSYM36"629E622F-67BD-4A14-873A-44B033D4EB70-
+
+CLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube normal armv7
+s351356197.845912
+e351356198.764331
+r1
+xLd
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube51a3d82545f1b441^d6acc32645f1b441^---0#0#0#--1051"Ld build/Debug-iphoneos/Cube.app/Cube normal armv7    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -filelist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Objects-normal/armv7/Cube.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework OpenGLES -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Cube36"026F5DD3-751A-47D8-AD9A-7AD47E3C1674-
+
+CProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Info.plist Cube/Cube-Info.plist
+s351356195.979608
+e351356195.984866
+r1
+xProcessInfoPlistFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Info.plist
+xCube/Cube-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Cube/Cube-Info.plist1fdbfa2345f1b441^a320fc2345f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Info.plist0000000000000000^768"ProcessInfoPlistFile build/Debug-iphoneos/Cube.app/Info.plist Cube/Cube-Info.plist    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Cube/Cube-Info.plist -genpkginfo /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/ResourceRules.plist -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/Info.plist36"D5896F36-76CF-423E-B752-82F9F42F6A98-
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/Cube-ewjgpjbvimhgrxbfqmfrattacvbu/Index/PrecompiledHeaders/Cube-Prefix-bxjkxcrpsrbjkjaslutjigcrzyrt_ast/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/Cube-ewjgpjbvimhgrxbfqmfrattacvbu/Index/PrecompiledHeaders/Cube-Prefix-fgciidakmdgicqgjnzdoijauhygf_ast/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351356195.987464
+e351356197.498680
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth
+xCube/Cube-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Cube/Cube-Prefix.pch47e3fc2345f1b441^ddb27f2545f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch0000000000000000^2612"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-brcuxjiddnnpxidmdoaisvbedyjh/Cube-Prefix.pch.d36"251725E4-D089-45E0-8028-A572C232FB5E-
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s351356195.988142
+e351356196.467145
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth
+xCube/Cube-Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Cube/Cube-Prefix.pche10dfd2345f1b441^f296772445f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch0000000000000000^2429"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=4.1 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-hhzkdjeiulqamyaaaqbpykviouah/Cube-Prefix.pch.d36"3D61065F-DC7C-410E-908A-807CA1483005-
+
+CProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision
+s351356199.400972
+e351356199.404626
+r1
+xProcessProductPackaging
+x/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" build/Debug-iphoneos/Cube.app/embedded.mobileprovision6abe662745f1b441^0c95672745f1b441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision0000000000000000^706"ProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" build/Debug-iphoneos/Cube.app/embedded.mobileprovision    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app/embedded.mobileprovision36"E162E4E1-1783-4AF9-BFC3-ABF8C325DDC4-
+
+CProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent
+s351356199.423969
+e351356199.447941
+r1
+xProcessProductPackaging
+x/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"ProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent6ea46c2745f1b441^71ad722745f1b441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent00f80837dcffdf42^692"ProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphoneos/Cube.build/Cube.xcent36"BC38DED9-FA0D-4D52-BAAA-7978DD52900C-
+
+CTouch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+s351356199.413733
+e351356199.421506
+r1
+xTouch
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app68056a2745f1b441^53e96b2745f1b441^---0#0#0#--397"Touch build/Debug-iphoneos/Cube.app    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphoneos/Cube.app36"4B59485A-82FB-472C-A211-6AB9FFD002D9-
+

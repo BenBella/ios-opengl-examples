@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>GLSL_Icon114x114px.png</key>
+		<data>
+		QAYuzEE/oEct4KKcKoOQ84HSJIY=
+		</data>
+		<key>GLSL_Icon512x512px.png</key>
+		<data>
+		hm77AhfDGXJadcraDreVOTl8Q28=
+		</data>
+		<key>GLSL_Icon57x57px.png</key>
+		<data>
+		AVBVK/aZWpNBmssbFFQrhF+qCII=
+		</data>
+		<key>GLSL_Icon72x72px.png</key>
+		<data>
+		iF93fN8TV0N2i4hvs9yoFQFqbJQ=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SimpleFragment.glsl</key>
+		<data>
+		5O0bj62UgY32uRpfofLy2mxvKsw=
+		</data>
+		<key>SimpleVertex.glsl</key>
+		<data>
+		xTLom34Mz+TPAr750VjM8bBtX0c=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		Wr/SLP8J07rwFdAz51SFJfdcQ64=
+		</data>
+		<key>en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

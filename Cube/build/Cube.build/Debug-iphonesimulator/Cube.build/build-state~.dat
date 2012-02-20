@@ -1,0 +1,482 @@
+TCube
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Info.plist Cube/Cube-Info.plist
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube normal i386
+
+N/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F18375E0000000000000110
+t1326987102
+s272
+
+N/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+c000000004F3E9B710000000000000A16
+t1329503089
+s2582
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch
+c000000004F410BFE0000000000000137
+t1329662974
+s311
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+c000000004F3FCA470000000000002791
+t1329580615
+s10129
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+c000000004DDBA22C00000000000040B9
+t1306239532
+s16569
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+c000000004DDBA7080000000000007009
+t1306240776
+s28681
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+c000000004DDBA76E0000000000004710
+t1306240878
+s18192
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+c000000004DDBA6E80000000000000A24
+t1306240744
+s2596
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/en.lproj/InfoPlist.strings
+c000000004F410BFE000000000000002D
+t1329662974
+s45
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon114x114px.png
+c000000004F40E4320000000000003CC7
+t1329652786
+s15559
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon512x512px.png
+c000000004F40E413000000000001E288
+t1329652755
+s123528
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon57x57px.png
+c000000004F40E451000000000000161D
+t1329652817
+s5661
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/icons/GLSL_Icon72x72px.png
+c000000004F40E3EB0000000000001F5F
+t1329652715
+s8031
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+c000000004F410BFE0000000000000158
+t1329662974
+s344
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleFragment.glsl
+c000000004F3F9C390000000000000060
+t1329568825
+s96
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/shaders/SimpleVertex.glsl
+c000000004F3FBEF000000000000000F6
+t1329577712
+s246
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/Cube.LinkFileList
+c000000004F410CCD00000000000003BB
+t1329663181
+s955
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app.dSYM
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/GLSL_Icon114x114px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/GLSL_Icon512x512px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/GLSL_Icon57x57px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/GLSL_Icon72x72px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Info.plist
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/PkgInfo
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/SimpleFragment.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/SimpleVertex.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth
+t2
+s0
+
+NCube/Cube-Info.plist
+c000000004F410CCD000000000000052F
+t1329663181
+s1327
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8317394d44f1b441^6765fb4d44f1b441^---0#1#0#--18"Check dependencies36"E00D9640-2676-4117-8BBD-413495F7FB16-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.303704
+e351355985.484873
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m16f94d5144f1b441^7d217c5144f1b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m0000000000000000^2831"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o Cube/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/AppDelegate.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/AppDelegate.o36"970E8AD5-4304-41EA-A4A9-B44B7DD09C8D-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.303743
+e351355985.627198
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m7ff84d5144f1b441^1991a05144f1b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m0000000000000000^2865"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o Cube/cocos3Dmath/CC3Foundation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Foundation.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Foundation.o36"D771C5CB-C125-4544-81C7-A972338C9D6A-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.303749
+e351355985.627657
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m23f64d5144f1b441^97aea05144f1b441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m0000000000000000^2855"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o Cube/cocos3Dmath/CC3GLMatrix.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3GLMatrix.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3GLMatrix.o36"E842322B-3506-43AA-A8BA-EAB1E40D2480-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s351355982.313887
+e351355983.296175
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c807d504e44f1b441^3dd74b4f44f1b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c0000000000000000^2623"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o Cube/cocos3Dmath/CC3Kazmath.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Kazmath.c -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Kazmath.o36"FF5E389A-1E92-4E05-82FC-6186DE0623DE-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.446095
+e351355985.642706
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3]
+o unsigned int RandomUInt() {
+o              ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3]
+o double RandomDouble() {
+o        ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3]
+o float RandomFloat() {
+o       ^
+o3 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m035e725144f1b441^3387a45144f1b441^-645"/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3] unsigned int RandomUInt() {              ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3] double RandomDouble() {        ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3] float RandomFloat() {       ^3 warnings generated.3(21%IDEActivityLogMessage2@47"No previous prototype for function 'RandomUInt'-351355985#0#170#-1#-23%DVTTextDocumentLocation3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^61#13#61#13#18446744073709551615#0#14"Semantic Issue--2@49"No previous prototype for function 'RandomDouble'-351355985#215#171#-1#-3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^69#7#69#7#18446744073709551615#0#14"Semantic Issue--2@48"No previous prototype for function 'RandomFloat'-351355985#421#170#-1#-3@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^77#6#77#6#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m0000000000000000^2835"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o Cube/cocos3Dmath/CC3Math.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/cocos3Dmath/CC3Math.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/CC3Math.o36"73DFA64A-6433-40F5-B400-AC249986CD61-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.486170
+e351355985.652378
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m12a27c5144f1b441^8e07a75144f1b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m0000000000000000^2826"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o Cube/OpenGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/OpenGLView.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/OpenGLView.o36"A9DBA0AD-B0ED-4F7F-8326-77299A6511AF-
+
+CCompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355985.303686
+e351355985.444815
+r1
+xCompileC
+xbuild/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.mb6f74d5144f1b441^83e0715144f1b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m0000000000000000^2796"CompileC build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o Cube/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/main.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/main.o36"D68971B5-ADB9-4B1D-B566-D01A0565767D-
+
+CCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/en.lproj/InfoPlist.strings Cube/en.lproj/InfoPlist.strings
+r0
+
+CCpResource Cube/icons/GLSL_Icon114x114px.png build/Debug-iphonesimulator/Cube.app/GLSL_Icon114x114px.png
+r0
+
+CCpResource Cube/icons/GLSL_Icon512x512px.png build/Debug-iphonesimulator/Cube.app/GLSL_Icon512x512px.png
+r0
+
+CCpResource Cube/icons/GLSL_Icon57x57px.png build/Debug-iphonesimulator/Cube.app/GLSL_Icon57x57px.png
+r0
+
+CCpResource Cube/icons/GLSL_Icon72x72px.png build/Debug-iphonesimulator/Cube.app/GLSL_Icon72x72px.png
+r0
+
+CCpResource Cube/shaders/SimpleFragment.glsl build/Debug-iphonesimulator/Cube.app/SimpleFragment.glsl
+r0
+
+CCpResource Cube/shaders/SimpleVertex.glsl build/Debug-iphonesimulator/Cube.app/SimpleVertex.glsl
+r0
+
+CGenerateDSYMFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app.dSYM /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube
+r0
+
+CLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube normal i386
+s351355985.653670
+e351355986.527364
+r0
+xLd
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "_glGenRenderbuffers", referenced from:
+o      -[OpenGLView setupRenderBuffer] in OpenGLView.o
+o      -[OpenGLView setupDepthBuffer] in OpenGLView.o
+o  "_glBindRenderbuffer", referenced from:
+o      -[OpenGLView setupRenderBuffer] in OpenGLView.o
+o      -[OpenGLView setupDepthBuffer] in OpenGLView.o
+o  "_glRenderbufferStorage", referenced from:
+o      -[OpenGLView setupDepthBuffer] in OpenGLView.o
+o  "_glGenFramebuffers", referenced from:
+o      -[OpenGLView setupFrameBuffer] in OpenGLView.o
+o  "_glBindFramebuffer", referenced from:
+o      -[OpenGLView setupFrameBuffer] in OpenGLView.o
+o  "_glFramebufferRenderbuffer", referenced from:
+o      -[OpenGLView setupFrameBuffer] in OpenGLView.o
+o  "_glCreateShader", referenced from:
+o      -[OpenGLView compileShader:withTipe:] in OpenGLView.o
+o  "_glShaderSource", referenced from:
+o      -[OpenGLView compileShader:withTipe:] in OpenGLView.o
+o  "_glCompileShader", referenced from:
+o      -[OpenGLView compileShader:withTipe:] in OpenGLView.o
+o  "_glGetShaderiv", referenced from:
+o      -[OpenGLView compileShader:withTipe:] in OpenGLView.o
+o  "_glGetShaderInfoLog", referenced from:
+o      -[OpenGLView compileShader:withTipe:] in OpenGLView.o
+o  "_glCreateProgram", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glAttachShader", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glLinkProgram", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glGetProgramiv", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glGetProgramInfoLog", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glUseProgram", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glGetAttribLocation", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glEnableVertexAttribArray", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glGetUniformLocation", referenced from:
+o      -[OpenGLView compileShaders] in OpenGLView.o
+o  "_glGenBuffers", referenced from:
+o      -[OpenGLView setupVBOs] in OpenGLView.o
+o  "_glBindBuffer", referenced from:
+o      -[OpenGLView setupVBOs] in OpenGLView.o
+o  "_glBufferData", referenced from:
+o      -[OpenGLView setupVBOs] in OpenGLView.o
+o  "_glClearColor", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glClear", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glEnable", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glUniformMatrix4fv", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_CACurrentMediaTime", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glViewport", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glVertexAttribPointer", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_glDrawElements", referenced from:
+o      -[OpenGLView render:] in OpenGLView.o
+o  "_OBJC_CLASS_$_CAEAGLLayer", referenced from:
+o      objc-class-ref in OpenGLView.o
+o  "_OBJC_CLASS_$_EAGLContext", referenced from:
+o      objc-class-ref in OpenGLView.o
+o  "_OBJC_CLASS_$_CADisplayLink", referenced from:
+o      objc-class-ref in OpenGLView.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube2f6ea75144f1b441^72fa865244f1b441^-3328"Undefined symbols for architecture i386:  "_glGenRenderbuffers", referenced from:      -[OpenGLView setupRenderBuffer] in OpenGLView.o      -[OpenGLView setupDepthBuffer] in OpenGLView.o  "_glBindRenderbuffer", referenced from:      -[OpenGLView setupRenderBuffer] in OpenGLView.o      -[OpenGLView setupDepthBuffer] in OpenGLView.o  "_glRenderbufferStorage", referenced from:      -[OpenGLView setupDepthBuffer] in OpenGLView.o  "_glGenFramebuffers", referenced from:      -[OpenGLView setupFrameBuffer] in OpenGLView.o  "_glBindFramebuffer", referenced from:      -[OpenGLView setupFrameBuffer] in OpenGLView.o  "_glFramebufferRenderbuffer", referenced from:      -[OpenGLView setupFrameBuffer] in OpenGLView.o  "_glCreateShader", referenced from:      -[OpenGLView compileShader:withTipe:] in OpenGLView.o  "_glShaderSource", referenced from:      -[OpenGLView compileShader:withTipe:] in OpenGLView.o  "_glCompileShader", referenced from:      -[OpenGLView compileShader:withTipe:] in OpenGLView.o  "_glGetShaderiv", referenced from:      -[OpenGLView compileShader:withTipe:] in OpenGLView.o  "_glGetShaderInfoLog", referenced from:      -[OpenGLView compileShader:withTipe:] in OpenGLView.o  "_glCreateProgram", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glAttachShader", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glLinkProgram", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glGetProgramiv", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glGetProgramInfoLog", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glUseProgram", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glGetAttribLocation", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glEnableVertexAttribArray", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glGetUniformLocation", referenced from:      -[OpenGLView compileShaders] in OpenGLView.o  "_glGenBuffers", referenced from:      -[OpenGLView setupVBOs] in OpenGLView.o  "_glBindBuffer", referenced from:      -[OpenGLView setupVBOs] in OpenGLView.o  "_glBufferData", referenced from:      -[OpenGLView setupVBOs] in OpenGLView.o  "_glClearColor", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glClear", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glEnable", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glUniformMatrix4fv", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_CACurrentMediaTime", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glViewport", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glVertexAttribPointer", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_glDrawElements", referenced from:      -[OpenGLView render:] in OpenGLView.o  "_OBJC_CLASS_$_CAEAGLLayer", referenced from:      objc-class-ref in OpenGLView.o  "_OBJC_CLASS_$_EAGLContext", referenced from:      objc-class-ref in OpenGLView.o  "_OBJC_CLASS_$_CADisplayLink", referenced from:      objc-class-ref in OpenGLView.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)72(21%IDEActivityLogMessage2@39""_glGenRenderbuffers", referenced from:-351355986#41#42#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@47"-[OpenGLView setupRenderBuffer] in OpenGLView.o-351355986#83#54#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46"-[OpenGLView setupDepthBuffer] in OpenGLView.o-351355986#137#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_glBindRenderbuffer", referenced from:-351355986#190#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@47"-[OpenGLView setupRenderBuffer] in OpenGLView.o-351355986#232#54#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46"-[OpenGLView setupDepthBuffer] in OpenGLView.o-351355986#286#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@42""_glRenderbufferStorage", referenced from:-351355986#339#45#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@46"-[OpenGLView setupDepthBuffer] in OpenGLView.o-351355986#384#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@38""_glGenFramebuffers", referenced from:-351355986#437#41#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@46"-[OpenGLView setupFrameBuffer] in OpenGLView.o-351355986#478#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@38""_glBindFramebuffer", referenced from:-351355986#531#41#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@46"-[OpenGLView setupFrameBuffer] in OpenGLView.o-351355986#572#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46""_glFramebufferRenderbuffer", referenced from:-351355986#625#49#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@46"-[OpenGLView setupFrameBuffer] in OpenGLView.o-351355986#674#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glCreateShader", referenced from:-351355986#727#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@53"-[OpenGLView compileShader:withTipe:] in OpenGLView.o-351355986#765#60#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glShaderSource", referenced from:-351355986#825#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@53"-[OpenGLView compileShader:withTipe:] in OpenGLView.o-351355986#863#60#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_glCompileShader", referenced from:-351355986#923#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@53"-[OpenGLView compileShader:withTipe:] in OpenGLView.o-351355986#962#60#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@34""_glGetShaderiv", referenced from:-351355986#1022#37#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@53"-[OpenGLView compileShader:withTipe:] in OpenGLView.o-351355986#1059#60#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_glGetShaderInfoLog", referenced from:-351355986#1119#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@53"-[OpenGLView compileShader:withTipe:] in OpenGLView.o-351355986#1161#60#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_glCreateProgram", referenced from:-351355986#1221#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1260#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glAttachShader", referenced from:-351355986#1311#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1349#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@34""_glLinkProgram", referenced from:-351355986#1400#37#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1437#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glGetProgramiv", referenced from:-351355986#1488#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1526#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40""_glGetProgramInfoLog", referenced from:-351355986#1577#43#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1620#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glUseProgram", referenced from:-351355986#1671#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1707#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40""_glGetAttribLocation", referenced from:-351355986#1758#43#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1801#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46""_glEnableVertexAttribArray", referenced from:-351355986#1852#49#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1901#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41""_glGetUniformLocation", referenced from:-351355986#1952#44#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"-[OpenGLView compileShaders] in OpenGLView.o-351355986#1996#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glGenBuffers", referenced from:-351355986#2047#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"-[OpenGLView setupVBOs] in OpenGLView.o-351355986#2083#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glBindBuffer", referenced from:-351355986#2129#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"-[OpenGLView setupVBOs] in OpenGLView.o-351355986#2165#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glBufferData", referenced from:-351355986#2211#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"-[OpenGLView setupVBOs] in OpenGLView.o-351355986#2247#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glClearColor", referenced from:-351355986#2293#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2329#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@28""_glClear", referenced from:-351355986#2373#31#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2404#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@29""_glEnable", referenced from:-351355986#2448#32#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2480#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_glUniformMatrix4fv", referenced from:-351355986#2524#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2566#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_CACurrentMediaTime", referenced from:-351355986#2610#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2652#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_glViewport", referenced from:-351355986#2696#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2730#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@42""_glVertexAttribPointer", referenced from:-351355986#2774#45#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2819#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glDrawElements", referenced from:-351355986#2863#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@37"-[OpenGLView render:] in OpenGLView.o-351355986#2901#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@45""_OBJC_CLASS_$_CAEAGLLayer", referenced from:-351355986#2945#48#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@30"Objc-class-ref in OpenGLView.o-351355986#2993#37#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@45""_OBJC_CLASS_$_EAGLContext", referenced from:-351355986#3030#48#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@30"Objc-class-ref in OpenGLView.o-351355986#3078#37#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@47""_OBJC_CLASS_$_CADisplayLink", referenced from:-351355986#3115#50#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@30"Objc-class-ref in OpenGLView.o-351355986#3165#37#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-351355986#3202#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@79"Clang: error: linker command failed with exit code 1 (use -v to see invocation)-351355986#3248#80#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--0#0#0#--1163"Ld build/Debug-iphonesimulator/Cube.app/Cube normal i386    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -filelist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Objects-normal/i386/Cube.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Cube36"9C3717CD-44C2-48FF-8066-B4B7F751AB32-
+
+CProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Info.plist Cube/Cube-Info.plist
+s351355982.017046
+e351355982.021695
+r1
+xProcessInfoPlistFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Info.plist
+xCube/Cube-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Cube/Cube-Info.plist7380044e44f1b441^f38f0a4e44f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Info.plist0000000000000000^680"ProcessInfoPlistFile build/Debug-iphonesimulator/Cube.app/Info.plist Cube/Cube-Info.plist    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Cube/Cube-Info.plist -genpkginfo /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app/Info.plist36"EA25057F-57F4-45F3-A1E5-0E3502B7DB4D-
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/Cube-ewjgpjbvimhgrxbfqmfrattacvbu/Index/PrecompiledHeaders/Cube-Prefix-eigoaajfclyxxzcjwyhnnxdpzaeo_ast/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/Cube-ewjgpjbvimhgrxbfqmfrattacvbu/Index/PrecompiledHeaders/Cube-Prefix-fxajdouohmjvftducboemhidxuzv_ast/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351355982.024542
+e351355985.301796
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth
+xCube/Cube-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Cube/Cube-Prefix.pch3c83064e44f1b441^13484d5144f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch0000000000000000^2795"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-dbsbuttndbcyatdkdfzkxrfzdnch/Cube-Prefix.pch.d36"10F2279D-D7B0-41DE-96A9-779023FEB134-
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s351355982.025153
+e351355982.312551
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth
+xCube/Cube-Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Cube/Cube-Prefix.pchfb91064e44f1b441^d908504e44f1b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch0000000000000000^2568"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth Cube/Cube-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/Cube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources/i386 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Cube.build/Debug-iphonesimulator/Cube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/Cube/Cube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cube-Prefix-gqnlnxqsgccyuldupaapbpprsfyl/Cube-Prefix.pch.d36"A760B850-3BCF-467D-8D1F-68F3D28DA659-
+
+CTouch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/Cube/build/Debug-iphonesimulator/Cube.app
+r0
+
