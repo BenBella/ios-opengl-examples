@@ -1,0 +1,548 @@
+TTCube
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/Info.plist TCube/TCube-Info.plist
+cCpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/TCube.app/ResourceRules.plist
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube normal armv7
+cGenerateDSYMFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube
+cCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/en.lproj/InfoPlist.strings TCube/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png TCube/icons/GLSL_Icon114x114px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png TCube/icons/GLSL_Icon512x512px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png TCube/icons/GLSL_Icon57x57px.png
+cCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png TCube/icons/GLSL_Icon72x72px.png
+cCpResource TCube/shaders/SimpleFragment.glsl build/Debug-iphoneos/TCube.app/SimpleFragment.glsl
+cCpResource TCube/shaders/SimpleVertex.glsl build/Debug-iphoneos/TCube.app/SimpleVertex.glsl
+cProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision
+cTouch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+cProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent
+cCodeSign /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F6E00000000000017190
+t1316157152
+s94608
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F8910000000000173260
+t1316157585
+s1520224
+
+N/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision
+c000000004F18471B0000000000001C52
+t1326991131
+s7250
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m
+c000000004F3E9B710000000000000A16
+t1329503089
+s2582
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m
+c000000004F4209440000000000003E4C
+t1329727812
+s15948
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Prefix.pch
+c000000004F4212BA0000000000000139
+t1329730234
+s313
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m
+c000000004DDBA22C00000000000040B9
+t1306239532
+s16569
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m
+c000000004DDBA7080000000000007009
+t1306240776
+s28681
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c
+c000000004DDBA76E0000000000004710
+t1306240878
+s18192
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m
+c000000004DDBA6E80000000000000A24
+t1306240744
+s2596
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/en.lproj/InfoPlist.strings
+c000000004F4212BA000000000000002D
+t1329730234
+s45
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon114x114px.png
+c000000004F40E4320000000000003CC7
+t1329652786
+s15559
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon512x512px.png
+c000000004F40E413000000000001E288
+t1329652755
+s123528
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon57x57px.png
+c000000004F40E451000000000000161D
+t1329652817
+s5661
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon72x72px.png
+c000000004F40E3EB0000000000001F5F
+t1329652715
+s8031
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m
+c000000004F4212BA0000000000000159
+t1329730234
+s345
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/shaders/SimpleFragment.glsl
+c000000004F4205820000000000000068
+t1329726850
+s104
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/shaders/SimpleVertex.glsl
+c000000004F4205CD0000000000000101
+t1329726925
+s257
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/Info.plist
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/PkgInfo
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/ResourceRules.plist
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/SimpleFragment.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/SimpleVertex.glsl
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/TCube.LinkFileList
+c000000004F4213AD00000000000003A6
+t1329730477
+s934
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth
+t2
+s0
+
+NTCube/TCube-Info.plist
+c000000004F421390000000000000052F
+t1329730448
+s1327
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m
+r0
+
+CBuild AST from /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb4e7e22d4bf2b441^7ac5fb2d4bf2b441^---0#1#0#--18"Check dependencies36"6C3E41CA-EDE3-4720-A82F-14B0C1394695-
+
+CCodeSign /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+s351423279.721736
+e351423280.131127
+r1
+xCodeSign
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/TCube.app83ddb82f4bf2b441^4f9321304bf2b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/0000000000000000^824"CodeSign build/Debug-iphoneos/TCube.app    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv CODESIGN_ALLOCATE /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign "iPhone Developer: Lukas Andrlik (SVQ4T72QGU)" --resource-rules=/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/ResourceRules.plist --entitlements /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app36"8E39A70D-BE77-4CEE-91E4-52B77BB1F052-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.406495
+e351423278.586759
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m035c682e4bf2b441^7e36962e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m0000000000000000^2668"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o TCube/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/AppDelegate.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/AppDelegate.o36"5570838B-D69C-4BB1-A0D3-44B110438161-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.544434
+e351423278.722188
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.md5958b2e4bf2b441^b4e3ba2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m0000000000000000^2702"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o TCube/cocos3Dmath/CC3Foundation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Foundation.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Foundation.o36"BB270E8D-A0B3-4332-A020-E6CE1D91E24C-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.406494
+e351423278.729029
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m4436682e4bf2b441^74eaba2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m0000000000000000^2692"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o TCube/cocos3Dmath/CC3GLMatrix.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3GLMatrix.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3GLMatrix.o36"DA0E7914-980C-4D9C-9C79-23046262F57F-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.117125
+e351423278.258127
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c5f261e2e4bf2b441^a915422e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c0000000000000000^2504"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o TCube/cocos3Dmath/CC3Kazmath.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Kazmath.c -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Kazmath.o36"23864E9E-EB45-4C32-9303-838CC56A0C01-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.588717
+e351423278.660111
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3]
+o unsigned int RandomUInt() {
+o              ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3]
+o double RandomDouble() {
+o        ^
+o/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3]
+o float RandomFloat() {
+o       ^
+o3 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m40fa962e4bf2b441^5ab8b02e4bf2b441^-651"/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:62:14: warning: no previous prototype for function 'RandomUInt' [-Wmissing-prototypes,3] unsigned int RandomUInt() {              ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:70:8: warning: no previous prototype for function 'RandomDouble' [-Wmissing-prototypes,3] double RandomDouble() {        ^/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m:78:7: warning: no previous prototype for function 'RandomFloat' [-Wmissing-prototypes,3] float RandomFloat() {       ^3 warnings generated.3(21%IDEActivityLogMessage2@47"No previous prototype for function 'RandomUInt'-351423278#0#172#-1#-23%DVTTextDocumentLocation3@98"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m0000000000000000^61#13#61#13#18446744073709551615#0#14"Semantic Issue--2@49"No previous prototype for function 'RandomDouble'-351423278#217#173#-1#-3@98"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m0000000000000000^69#7#69#7#18446744073709551615#0#14"Semantic Issue--2@48"No previous prototype for function 'RandomFloat'-351423278#425#172#-1#-3@98"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m0000000000000000^77#6#77#6#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m0000000000000000^2672"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o TCube/cocos3Dmath/CC3Math.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/cocos3Dmath/CC3Math.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/CC3Math.o36"691F493F-A4B3-4BB7-A5DC-67A9E59929AC-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.406647
+e351423278.605608
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m5a48682e4bf2b441^ea099b2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m0000000000000000^2663"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o TCube/OpenGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/OpenGLView.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/OpenGLView.o36"05021F96-1438-4B33-91BA-C1291498F463-
+
+CCompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.406452
+e351423278.543137
+r1
+xCompileC
+xbuild/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m3b38682e4bf2b441^111c8b2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m0000000000000000^2633"CompileC build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o TCube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -include /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch -MMD -MT dependencies -MF /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.d -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/main.m -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/main.o36"E00698DC-8CCD-4DBE-98BC-9649DFE0D2D4-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png TCube/icons/GLSL_Icon114x114px.png
+s351423278.849603
+e351423279.114254
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png
+xTCube/icons/GLSL_Icon114x114px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png TCube/icons/GLSL_Icon114x114px.pngea96d92e4bf2b441^ee401d2f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon114x114px.png0000000000000000^723"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png TCube/icons/GLSL_Icon114x114px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon114x114px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon114x114px.png36"7B42D561-6D74-43F4-97A8-97E6E7B8EEB7-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png TCube/icons/GLSL_Icon512x512px.png
+s351423278.849644
+e351423279.658858
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png
+xTCube/icons/GLSL_Icon512x512px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png TCube/icons/GLSL_Icon512x512px.png209ad92e4bf2b441^bcada82f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon512x512px.png0000000000000000^723"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png TCube/icons/GLSL_Icon512x512px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon512x512px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon512x512px.png36"72680248-7DF4-461F-AE70-FA3C5A42BDFA-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png TCube/icons/GLSL_Icon57x57px.png
+s351423278.850189
+e351423279.096417
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png
+xTCube/icons/GLSL_Icon57x57px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png TCube/icons/GLSL_Icon57x57px.pngcbbcd92e4bf2b441^c7d5182f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon57x57px.png0000000000000000^715"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png TCube/icons/GLSL_Icon57x57px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon57x57px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon57x57px.png36"125AAD56-7847-458F-82C2-8C2269AE3112-
+
+CCopyPNGFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png TCube/icons/GLSL_Icon72x72px.png
+s351423278.853490
+e351423279.096223
+r1
+xCopyPNGFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png
+xTCube/icons/GLSL_Icon72x72px.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png TCube/icons/GLSL_Icon72x72px.png5798da2e4bf2b441^14b1182f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon72x72px.png0000000000000000^715"CopyPNGFile build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png TCube/icons/GLSL_Icon72x72px.png    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/icons/GLSL_Icon72x72px.png /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/GLSL_Icon72x72px.png36"B32B7431-672E-438F-80AF-A7EE938D7C03-
+
+CCopyStringsFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/en.lproj/InfoPlist.strings TCube/en.lproj/InfoPlist.strings
+s351423278.848987
+e351423278.852134
+r1
+xCopyStringsFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/en.lproj/InfoPlist.strings
+xTCube/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy TCube/en.lproj/InfoPlist.strings0472d92e4bf2b441^0b26da2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/en.lproj/InfoPlist.strings0000000000000000^584"CopyStringsFile build/Debug-iphoneos/TCube.app/en.lproj/InfoPlist.strings TCube/en.lproj/InfoPlist.strings    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/en.lproj -- TCube/en.lproj/InfoPlist.strings36"BF1D4C44-1078-4728-884A-D8886E8B8525-
+
+CCpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/TCube.app/ResourceRules.plist
+s351423277.994164
+e351423278.020168
+r1
+xCpResource
+x/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/TCube.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/TCube.app/ResourceRules.plistdba4fe2d4bf2b441^29262b2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/ResourceRules.plist00f80837dcffdf42^704"CpResource /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/TCube.app/ResourceRules.plist    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app36"324A679F-98E5-42DA-B618-549BA98F904A-
+
+CCpResource TCube/shaders/SimpleFragment.glsl build/Debug-iphoneos/TCube.app/SimpleFragment.glsl
+s351423279.097752
+e351423279.102875
+r1
+xCpResource
+xTCube/shaders/SimpleFragment.glsl
+xbuild/Debug-iphoneos/TCube.app/SimpleFragment.glsl
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/TCube.app/SimpleFragment.glsl211e192f4bf2b441^7c611a2f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/SimpleFragment.glsl00f80837dcffdf42^639"CpResource TCube/shaders/SimpleFragment.glsl build/Debug-iphoneos/TCube.app/SimpleFragment.glsl    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/shaders/SimpleFragment.glsl /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app36"2DB7E73E-0C9F-4C80-8128-1D1F0C66511C-
+
+CCpResource TCube/shaders/SimpleVertex.glsl build/Debug-iphoneos/TCube.app/SimpleVertex.glsl
+s351423279.098387
+e351423279.103465
+r1
+xCpResource
+xTCube/shaders/SimpleVertex.glsl
+xbuild/Debug-iphoneos/TCube.app/SimpleVertex.glsl
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/TCube.app/SimpleVertex.glsl1843192f4bf2b441^cb811a2f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/SimpleVertex.glsl00f80837dcffdf42^633"CpResource TCube/shaders/SimpleVertex.glsl build/Debug-iphoneos/TCube.app/SimpleVertex.glsl    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/shaders/SimpleVertex.glsl /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app36"D71CF3B5-966D-4974-A5A7-8A98E8A1969F-
+
+CGenerateDSYMFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube
+s351423278.820784
+e351423278.845275
+r1
+xGenerateDSYMFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generating /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYMda3cd22e4bf2b441^fe64d82e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM00f80837dcffdf42^568"GenerateDSYMFile build/Debug-iphoneos/TCube.app.dSYM build/Debug-iphoneos/TCube.app/TCube    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/usr/bin/dsymutil /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app.dSYM36"5889ED31-DA1A-4AD2-A782-5141BC206D76-
+
+CLd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube normal armv7
+s351423278.730223
+e351423278.819411
+r1
+xLd
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube990cbb2e4bf2b441^04cbd12e4bf2b441^---0#0#0#--1063"Ld build/Debug-iphoneos/TCube.app/TCube normal armv7    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -filelist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/Objects-normal/armv7/TCube.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework OpenGLES -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/TCube36"AA647DBE-42DF-43C8-9A32-B661A9925B42-
+
+CProcessInfoPlistFile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/Info.plist TCube/TCube-Info.plist
+s351423277.994146
+e351423278.020625
+r1
+xProcessInfoPlistFile
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/Info.plist
+xTCube/TCube-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process TCube/TCube-Info.plistd3a2fe2d4bf2b441^382e2b2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Info.plist0000000000000000^780"ProcessInfoPlistFile build/Debug-iphoneos/TCube.app/Info.plist TCube/TCube-Info.plist    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TCube/TCube-Info.plist -genpkginfo /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/ResourceRules.plist -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/Info.plist36"EFCB0D1D-58DA-4F1E-A1FB-4FC52E96B5A1-
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/TCube-exkhbvloldwhrxdecoccjdgpxwcr/Index/PrecompiledHeaders/TCube-Prefix-azavnbxmwewybggxvvegctmnynjc_ast/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/lukasandrlik/Library/Developer/Xcode/DerivedData/TCube-exkhbvloldwhrxdecoccjdgpxwcr/Index/PrecompiledHeaders/TCube-Prefix-gaktrgmjjfzcvubfgiaasavfmurz_ast/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.029083
+e351423278.115831
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth
+xTCube/TCube-Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile TCube/TCube-Prefix.pch69c5072e4bf2b441^1a352b2e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Prefix.pch0000000000000000^2465"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-fxcygmgqezuktwailihnraattwqv/TCube-Prefix.pch.d36"149F11A0-3C57-46FB-8BC4-234F0F790A6A-
+
+CProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351423278.029135
+e351423278.405174
+r1
+xProcessPCH
+x/var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth
+xTCube/TCube-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile TCube/TCube-Prefix.pchf7ea072e4bf2b441^dcba672e4bf2b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Prefix.pch0000000000000000^2648"ProcessPCH /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth TCube/TCube-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-generated-files.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-own-target-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-all-target-headers.hmap -iquote /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube-project-headers.hmap -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/include -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources/armv7 -I/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/DerivedSources -F/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/TCube/TCube-Prefix.pch -o /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ci/ciQmW5MaGvuQdEJV5FupgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TCube-Prefix-hfplrjmszrotpsggeluwoxflknku/TCube-Prefix.pch.d36"510DD3EA-C77A-4FB0-9C79-310D722808E9-
+
+CProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision
+s351423279.681475
+e351423279.684590
+r1
+xProcessProductPackaging
+x/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection191"ProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" build/Debug-iphoneos/TCube.app/embedded.mobileprovision6491ae2f4bf2b441^8942af2f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision0000000000000000^710"ProcessProductPackaging "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" build/Debug-iphoneos/TCube.app/embedded.mobileprovision    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/lukasandrlik/Library/MobileDevice/Provisioning Profiles/iOS_Team_Provisioning_Profile_.mobileprovision" -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app/embedded.mobileprovision36"E93920E1-9ECB-46EB-9F27-94A20148CE77-
+
+CProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent
+s351423279.697224
+e351423279.718804
+r1
+xProcessProductPackaging
+x/Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection173"ProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent0091b22f4bf2b441^c904b82f4bf2b441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent00f80837dcffdf42^700"ProcessProductPackaging /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Developer-4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/TCube.build/Debug-iphoneos/TCube.build/TCube.xcent36"7987DDF7-734E-4DAE-895C-DD1CA7D23DEC-
+
+CTouch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+s351423279.687167
+e351423279.694682
+r1
+xTouch
+x/Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app0c05b02f4bf2b441^edd7b12f4bf2b441^---0#0#0#--401"Touch build/Debug-iphoneos/TCube.app    cd /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube    setenv PATH "/Developer-4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/lukasandrlik/Work/iOS/Applications/OpenGL/TCube/build/Debug-iphoneos/TCube.app36"BFA923D6-09F6-4848-A02E-5936625D4761-
+
