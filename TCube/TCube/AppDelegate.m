@@ -27,7 +27,7 @@
     // Override point for customization after application launch.
     CGRect screenBounds = [[UIScreen mainScreen] bounds];   
     self.window = [[[UIWindow alloc] initWithFrame: screenBounds] autorelease];
-    self.glView = [[[OpenGLView alloc] initWithFrame:screenBounds] autorelease];
+    self.glView = [[[OpenGLView alloc] initWithFrame: screenBounds] autorelease];
     [self.window addSubview:_glView];
     [self.window makeKeyAndVisible];
     return YES;

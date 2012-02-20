@@ -9,21 +9,45 @@
 #import "OpenGLView.h"
 #import "CC3GLMatrix.h"
 
+#define TEX_COORD_MAX   4
+
 typedef struct {
     float Position[3];
     float Color[4];
     float TexCoord[2];
 } Vertex;
 
-const Vertex Vertices[] = {
-    {{1,-1,0},{80.0/255.0,80.0/255.0,80.0/255.0,1},{1,0}},
-    {{1,1,0},{240.0/255.0,240.0/255.0,240.0/255.0,1},{1,1}},
-    {{-1,1,0},{150.0/255.0,150.0/255.0,150.0/255.0,1},{0,1}},
-    {{-1,-1,0},{255.0/255.0,255.0/255.0,255.0/255.0,1},{0,0}},
-    {{1,-1,-1},{80.0/255.0,80.0/255.0,80.0/255.0,1},{1,0}},
-    {{1,1,-1},{240.0/255.0,240.0/255.0,240.0/255.0,1},{1,1}},
-    {{-1,1,-1},{150.0/255.0,150.0/255.0,150.0/255.0,1},{0,1}},
-    {{-1,-1,-1},{255.0/255.0,255.0/255.0,255.0/255.0,1},{0,0}}
+const Vertex Vertices[] = {    
+    // Front
+    {{1, -1, 0}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}},
+    {{1, 1, 0}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{-1, 1, 0}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}},
+    {{-1, -1, 0}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}},
+    // Back
+    {{1, 1, -2}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}},
+    {{-1, -1, -2}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{1, -1, -2}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}},
+    {{-1, 1, -2}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}},
+    // Left
+    {{-1, -1, 0}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}}, 
+    {{-1, 1, 0}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{-1, 1, -2}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}},
+    {{-1, -1, -2}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}},
+    // Right
+    {{1, -1, -2}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}},
+    {{1, 1, -2}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{1, 1, 0}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}},
+    {{1, -1, 0}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}},
+    // Top
+    {{1, 1, 0}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}},
+    {{1, 1, -2}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{-1, 1, -2}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}},
+    {{-1, 1, 0}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}},
+    // Bottom
+    {{1, -1, -2}, {80.0/255.0,80.0/255.0,80.0/255.0,1}, {TEX_COORD_MAX, 0}},
+    {{1, -1, 0}, {240.0/255.0,240.0/255.0,240.0/255.0,1}, {TEX_COORD_MAX, TEX_COORD_MAX}},
+    {{-1, -1, 0}, {150.0/255.0,150.0/255.0,150.0/255.0,1}, {0, TEX_COORD_MAX}}, 
+    {{-1, -1, -2}, {255.0/255.0,255.0/255.0,255.0/255.0,1}, {0, 0}}
 };
 
 const GLubyte Indices[] = {
@@ -31,20 +55,32 @@ const GLubyte Indices[] = {
     0, 1, 2,
     2, 3, 0,
     // Back
-    4, 6, 5,
-    4, 7, 6,
+    4, 5, 6,
+    4, 5, 7,
     // Left
-    2, 7, 3,
-    7, 6, 2,
+    8, 9, 10,
+    10, 11, 8,
     // Right
-    0, 4, 1,
-    4, 1, 5,
+    12, 13, 14,
+    14, 15, 12,
     // Top
-    6, 2, 1,
-    1, 6, 5,
+    16, 17, 18,
+    18, 19, 16,
     // Bottom
-    0, 3, 7,
-    0, 7, 4
+    20, 21, 22,
+    22, 23, 20
+};
+
+/* In the first section, we define a new set of vertices for the rectangle where we’ll draw the logo texture. Note we make it a little bit smaller than the front face, and we also make the z coordinate slightly taller so it will show up. Otherwise, it could be discarded by the depth test. */
+const Vertex Vertices2[] = {
+    {{0.5, -0.5, 0.01}, {1, 1, 1, 1}, {1, 1}},
+    {{0.5, 0.5, 0.01}, {1, 1, 1, 1}, {1, 0}},
+    {{-0.5, 0.5, 0.01}, {1, 1, 1, 1}, {0, 0}},
+    {{-0.5, -0.5, 0.01}, {1, 1, 1, 1}, {0, 1}},
+};
+
+const GLubyte Indices2[] = {
+    1, 0, 2, 3
 };
 
 @implementation OpenGLView
@@ -62,7 +98,7 @@ const GLubyte Indices[] = {
         [self compileShaders];
         [self setupVBOs];
         _floorTexture = [self setupTexture:@"tile_floor.png"];
-        _fishTexture = [self setupTexture:@"item_powerup_fish.png"];
+        _logoTexture = [self setupTexture:@"DD_logo.png"];
         [self setupDisplayLink];
         //[self render];
     }
@@ -227,15 +263,21 @@ const GLubyte Indices[] = {
  
  There are two types of vertex buffer objects – one to keep track of the per-vertex data (like we have in the Vertices array), and one to keep track of the indices that make up triangles (like we have in the Indices array). */
 {
-    GLuint vertexBuffer;
-    glGenBuffers(1, &vertexBuffer);
-    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+    glGenBuffers(1, &_vertexBuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
     
-    GLuint indexBuffer;
-    glGenBuffers(1, &indexBuffer);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indexBuffer);
+    glGenBuffers(1, &_indexBuffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Indices), Indices, GL_STATIC_DRAW);
+    
+    glGenBuffers(1, &_vertexBuffer2);
+    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer2);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices2), Vertices2, GL_STATIC_DRAW);
+    
+    glGenBuffers(1, &_indexBuffer2);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer2);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Indices2), Indices2, GL_STATIC_DRAW);
 }
 
 - (GLuint)setupTexture:(NSString *)fileName {    
@@ -269,8 +311,10 @@ const GLubyte Indices[] = {
     glGenTextures(1, &texName);
     glBindTexture(GL_TEXTURE_2D, texName);
     
+    /* Setting the GL_TEXTURE_MIN_FILTER is actually required if you aren’t using mipmaps (like this case!) I didn’t know this at first and didn’t include this line, and nothing showed up. I found out later on that this is actually listed in the OpenGL common mistakes – d’oh */
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST); 
     
+    /* The final step is to send the pixel data buffer we created earlier over to OpenGL with glTexImage2D. When you call this function, you specify the format of the pixel data you send in. Here we specify GL_RGBA and GL_UNSIGNED_BYTE to say “there’s 1 byte for red, green, blue, and alpha.” */
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);
     
     free(spriteData);        
@@ -296,6 +340,9 @@ const GLubyte Indices[] = {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     
+    glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_BLEND);
+    
     /* Projection */
     CC3GLMatrix * projection = [CC3GLMatrix matrix];
     float h = 4.0f * self.frame.size.height / self.frame.size.width;
@@ -313,6 +360,9 @@ const GLubyte Indices[] = {
     
     /* Calls glViewport to set the portion of the UIView to use for rendering. This sets it to the entire window, but if you wanted a smallar part you could change these values. */
     glViewport(0, 0, self.frame.size.width, self.frame.size.height);
+    
+    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer);
     
     /* Calls glVertexAttribPointer to feed the correct values to the two input variables for the vertex shader – the Position and SourceColor attributes. 
      
@@ -333,6 +383,9 @@ const GLubyte Indices[] = {
     glVertexAttribPointer(_texCoordSlot, 2, GL_FLOAT, GL_FALSE, 
                           sizeof(Vertex), (GLvoid*) (sizeof(float) * 7));    
     
+    /* First, we activate the texture unit we want to load our texture into. On iOS, we’re guaranteed to have at least 2 texture units, and most of the time 8. This can be good if you need to perform computations on more than one texture at a time. However, for this tutorial, we don’t really need to use more than one texture unit at a time, so we’ll just stick the first texture unit (GL_TEXTURE0). 
+     
+        Note that lines 1 and 3 aren’t strictly necessary, and a lot of times you’ll see code that doesn’t even include those lines. This is because it’s assuming GL_TEXTURE0 is already the active texture unit, and doesn’t bother setting the uniform because it defaults to 0 anyway. */
     glActiveTexture(GL_TEXTURE0); 
     glBindTexture(GL_TEXTURE_2D, _floorTexture);
     glUniform1i(_textureUniform, 0);
@@ -345,6 +398,22 @@ const GLubyte Indices[] = {
      From the documentation, it appears that the final parameter should be a pointer to the indices. But since we’re using VBOs it’s a special case – it will use the indices array we already passed to OpenGL-land in the GL_ELEMENT_ARRAY_BUFFER. */
     glDrawElements(GL_TRIANGLES, sizeof(Indices)/sizeof(Indices[0]), GL_UNSIGNED_BYTE, 0);
     
+    
+    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer2);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer2);
+    
+    glActiveTexture(GL_TEXTURE0); 
+    glBindTexture(GL_TEXTURE_2D, _logoTexture);
+    glUniform1i(_textureUniform, 0); 
+    
+    glUniformMatrix4fv(_modelViewUniform, 1, 0, modelView.glMatrix);
+    
+    glVertexAttribPointer(_positionSlot, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), 0);
+    glVertexAttribPointer(_colorSlot, 4, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*) (sizeof(float) * 3));
+    glVertexAttribPointer(_texCoordSlot, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*) (sizeof(float) * 7));
+    
+    glDrawElements(GL_TRIANGLE_STRIP, sizeof(Indices2)/sizeof(Indices2[0]), GL_UNSIGNED_BYTE, 0);
+    
     [_context presentRenderbuffer:GL_RENDERBUFFER];
 }
 
@@ -356,6 +425,12 @@ const GLubyte Indices[] = {
     // Drawing code
 }
 */
+
+- (void)clear
+{
+    glClearColor(200.0/255.0, 200.0/255.0, 200.0/255.0, 1.0);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+}
 
 - (void)dealloc
 {
